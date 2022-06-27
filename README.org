@@ -10,7 +10,6 @@ A Bookstore management API (with mySQl) in ~go~
 │       └── main.go
 ├── go.mod
 ├── go.sum
-├── nerdygook-routes.go
 ├── pkg
 │   ├── config
 │   │   └── app.go
