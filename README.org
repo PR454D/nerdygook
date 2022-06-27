@@ -1,0 +1,32 @@
+* Nerdygook
+
+A Bookstore management API (with mySQl) in ~go~
+
+*** Structure
+#+begin_src shell
+./
+├── cmd
+│   └── main
+│       └── main.go
+├── go.mod
+├── go.sum
+├── nerdygook-routes.go
+├── pkg
+│   ├── config
+│   │   └── app.go
+│   ├── controllers
+│   │   └── nerdy-controller.go
+│   ├── models
+│   │   └── book.go
+│   ├── routes
+│   │   └── nerdygook-routes.go
+│   └── utils
+│       └── utils.go
+└── README.org
+
+8 directories, 10 files
+#+end_src
+*** Dependencies
+=mySQl= (Duh!)
+=jinzhu/gorm=
+=gorilla/mux=
